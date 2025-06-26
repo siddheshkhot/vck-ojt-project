@@ -69,4 +69,7 @@ button:focus-visible {
 body{
   background-color: #52d2d2;
   overflow: hidden;
+
+  padding: 0;
+  box-sizing: border-box;
 }

@@ -1,11 +1,10 @@
 import React from 'react';
-import Chatbot from '../components/Chatbot';
 import { Link } from 'react-router-dom';
 import './Courses.css'
 const Courses = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'74px',maxHeight:'73vh'}} className="page-container">
+      <div style={{marginTop:'50px',maxHeight:'84vh'}} className="page-container">
         <h1 style={{textAlign:'center',color:'#007bff'}} className=''>Our Academic Programs</h1>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
@@ -23,7 +22,7 @@ const Courses = () => {
             className="course-video"
           >
             <source
-              src="https://vck-ojt.vercel.app/assets/college-tour-FAmcnyfF.mp4"
+              src="/public/video/vck.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -118,7 +117,7 @@ const Courses = () => {
           </Link>
         </div>
       </div>
-      <Chatbot/>
+      {/* <Chatbot/> */}
     </div>
   );
 };

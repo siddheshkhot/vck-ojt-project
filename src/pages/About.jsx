@@ -1,11 +1,10 @@
 import React from 'react';
-import Chatbot from '../components/Chatbot';
 import './About.css'
 const About = () => {
   return (
    <div className="content">
-      <div style={{marginTop:'74px',maxHeight:'73vh'}} className="page-container ">
-        <h1 style={{fontSize:'50px',color:'#007bff' }} className="text-center ">About Vivekanand College</h1>
+      <div style={{marginTop:'50px',maxHeight:'84vh'}} className="page-container ">
+        <h1 style={{fontSize:'50px',color:'#007bff' }} className=" text-center ">About Vivekanand College</h1>
 
         <p>
           Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering
@@ -42,7 +41,7 @@ const About = () => {
           proudly nurtured generations of successful alumni.
         </p>
       </div>
-      <Chatbot/>
+      {/* <Chatbot/> */}
     </div>
   );
 };
