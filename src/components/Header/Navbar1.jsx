@@ -39,7 +39,7 @@ const Navbar1 = () => {
         </button>
 
         {/* Offcanvas for mobile */}
-        <div
+        <div style={{width: '179px'}}
           className="offcanvas offcanvas-end d-md-none text-bg-primary"
           tabIndex="-1"
           id="offcanvasNavbar"
